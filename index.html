@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống quản lý đặt lịch khám bệnh</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #007b1e;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar .buttons button {
+            background-color: #d4ed92;
+            border: none;
+            padding: 10px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .card h3 {
+            color: #007b1e;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">HƯỚNG DẪN</a>
+            <a href="#">LỊCH KHÁM</a>
+            <a href="#">TRA CỨU</a>
+            <a href="#">DIỄN ĐÀN</a>
+        </div>
+        <div class="buttons">
+            <button>Đăng nhập</button>
+            <button>Đăng ký</button>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="card">
+            <img src="news1.jpg" alt="Thông báo 1">
+            <h3>Thông báo về lịch khám bệnh</h3>
+            <p>Hiện nay, các lịch khám bệnh đã gần đầy đủ. Vui lòng kiểm tra hệ thống để đăng ký kịp thời.</p>
+            <p><strong>📅 Ngày: 03/03/2025</strong></p>
+        </div>
+        <div class="card">
+            <img src="news2.jpg" alt="Thông báo 2">
+            <h3>Thông báo về dữ liệu bệnh nhân</h3>
+            <p>Hệ thống đã cập nhật thông tin mới nhất. Bệnh nhân có thể tra cứu lịch sử khám bệnh.</p>
+            <p><strong>📅 Ngày: 02/03/2025</strong></p>
+        </div>
+    </div>
+</body>
+</html>
